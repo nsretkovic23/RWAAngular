@@ -1,0 +1,9 @@
+.posts{
+    display: flex;
+    flex-direction: column;
+}
+
+:host{
+    display: flex;
+    justify-content: center;
+}
