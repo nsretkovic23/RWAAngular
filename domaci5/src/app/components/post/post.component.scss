@@ -1,0 +1,77 @@
+:host{
+    background-color: black;
+    border: 1px solid aqua;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.name{
+    margin-top:-5px;
+    margin-left: 15px;
+    color:white;
+}
+
+.username{
+    color:silver;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+.userInfo img{
+    margin-top: -5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.userInfo{
+    margin-top:15px;
+    margin-left:15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.postContent{
+    margin-left:78px;
+}
+
+.postContent h5{
+    font-weight: normal;
+    margin-top: -23px;
+    color: aqua;
+}
+
+.postContent img{
+    display: flex;
+    object-fit: scale-down;
+    max-height: 500px;
+    min-width: 400px;
+    max-width: 512px;
+    border-radius: 5%;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    box-shadow: 4px 3px 3px #3d3d3d;
+}
+
+.analytics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:white;
+    cursor: pointer;
+    font-size: large;
+}
+
+.likes:hover {
+    color:red;
+}
+.dislikes:hover{
+    color:yellow;
+}
+.shares:hover{
+    color:yellowgreen
+}
