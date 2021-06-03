@@ -1,3 +1,4 @@
+<div class="container" *ngIf="post">
 <div class="userInfo">
     <img src="{{post.userPicture}}" alt="Avatar"/>
     <h3 class="name">{{post.name}}</h3>
@@ -12,4 +13,4 @@
     <div class="dislikes"(click)="dislikePost()"><fa-icon [icon]="icon_Dislike"></fa-icon> {{post.dislikes}}</div>
     <div class="likes" (click)="likePost()"><fa-icon [icon]="icon_Like"></fa-icon> {{post.likes}}</div>
 </div>
-
+</div>

@@ -23,7 +23,7 @@ export class AppComponent {
   post2:Post ={
     name: "React Javascript Library",
     username:"@ReactJS",
-    userPicture: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+    userPicture: "https://w7.pngwing.com/pngs/825/919/png-transparent-react-javascript-library-github-backbone-logo-symmetry-native.png",
     description: "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.", 
     postPicture: "https://miro.medium.com/max/3840/1*yjH3SiDaVWtpBX0g_2q68g.png",
     likes: 1500,

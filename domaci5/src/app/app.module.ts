@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PostComponent } from './components/post/post.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PostListComponent } from './components/post-list/post-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostComponent
+    PostComponent,
+    PostListComponent
   ],
   imports: [
     BrowserModule,

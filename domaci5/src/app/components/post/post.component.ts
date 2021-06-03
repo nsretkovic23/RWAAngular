@@ -9,16 +9,7 @@ import {faThumbsUp, faThumbsDown, faShareSquare} from '@fortawesome/free-solid-s
 })
 export class PostComponent implements OnInit {
   
-  @Input() post:Post = {
-    name: "",
-    username:"",
-    userPicture: "",
-    description: "",
-    postPicture: "",
-    likes: 0,
-    dislikes: 0,
-    shares: 0
-  };
+  @Input() post:Post | null=null;
 
   icon_Like = faThumbsUp;
   icon_Dislike = faThumbsDown;
@@ -30,15 +21,18 @@ export class PostComponent implements OnInit {
   }
 
   likePost(){
-    this.post.likes++;
+    if(this.post)
+      this.post.likes++;
   }
 
   sharePost(){
-    this.post.shares++;
+    if(this.post)
+      this.post.shares++;
   }
 
   dislikePost(){
-    this.post.dislikes++;
+    if(this.post)
+      this.post.dislikes++;
   }
 
 }
