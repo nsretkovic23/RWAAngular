@@ -14,7 +14,40 @@
           {
             "id":2,
             "name": "React Javascript Library",
-            "username":"@ReactJS",
+            "username":"@reactjs",
+            "userPicture": "https://w7.pngwing.com/pngs/825/919/png-transparent-react-javascript-library-github-backbone-logo-symmetry-native.png",
+            "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.", 
+            "postPicture": "https://miro.medium.com/max/3840/1*yjH3SiDaVWtpBX0g_2q68g.png",
+            "likes": 1500,
+            "dislikes": 23,
+            "shares": 112
+          },
+          {
+            "id":3,
+            "name": "Golden State Warriors",
+            "username":"@warriors",
+            "userPicture": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fnba%2F500%2Fgs.png",
+            "description": "Steph Curry scored 62 against Portland!", 
+            "postPicture": "",
+            "likes": 12300,
+            "dislikes": 200,
+            "shares": 112
+          },
+          {
+            "id":4,
+            "name": "Golden State Warriors",
+            "username":"@warriors",
+            "userPicture": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fnba%2F500%2Fgs.png",
+            "description": "Klay Thompson is back for next season", 
+            "postPicture": "",
+            "likes": 12300,
+            "dislikes": 200,
+            "shares": 112
+          },
+          {
+            "id":2,
+            "name": "React Javascript Library",
+            "username":"@reactjs",
             "userPicture": "https://w7.pngwing.com/pngs/825/919/png-transparent-react-javascript-library-github-backbone-logo-symmetry-native.png",
             "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.", 
             "postPicture": "https://miro.medium.com/max/3840/1*yjH3SiDaVWtpBX0g_2q68g.png",
@@ -22,5 +55,6 @@
             "dislikes": 23,
             "shares": 112
           }
-]
+        ]
+
 }

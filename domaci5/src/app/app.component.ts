@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'domaci5';
 
   post1:Post ={
+    id: 1,
     name: "Nikola Sretkovic",
     username:"@nsretkovic",
     userPicture: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png",
@@ -21,6 +22,7 @@ export class AppComponent {
   }
 
   post2:Post ={
+    id: 2,
     name: "React Javascript Library",
     username:"@ReactJS",
     userPicture: "https://w7.pngwing.com/pngs/825/919/png-transparent-react-javascript-library-github-backbone-logo-symmetry-native.png",
